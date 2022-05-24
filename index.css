@@ -1,0 +1,281 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    height: 50vh;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.lmain {
+    background-color: white;
+    height: auto;
+    width: 90%;
+    position: absolute;
+    margin: 0 auto;
+    left: 5%;
+}
+
+.lleft {
+    background-color: #17334f;
+    width: 22%;
+    float: left;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.lright {
+    width: 700px;
+    float: left;
+    color: red;
+    width: 65%;
+    margin-left: 3%;
+}
+
+#limg {
+    width: 100%;
+    /* height: 230px; */
+    margin-top: -17px;
+    margin-bottom: 25px;
+}
+
+.lbox-1 {
+    position: relative;
+}
+
+.heading {
+    background-color: gold;
+    padding: 6px;
+    text-align: left;
+    padding-left: 35px;
+    margin-right: -14px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.headings {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    color: gold;
+    background-color: #17334f;
+    font-family: serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.p {
+    color: white;
+    font-weight: normal;
+}
+
+.con {
+    font-weight: bold;
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    font-size: 1.5vw;
+}
+
+.text {
+    font-size: 1.2vw;
+    margin-left: -40px;
+}
+
+.h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.heading::after {
+    content: " ";
+    position: absolute;
+    width: 21px;
+    background-color: white;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+
+.others {
+    float: left;
+    width: 100px;
+}
+
+.other {
+    float: right;
+    width: 100px;
+}
+
+.p1 {
+    padding: 13px 17px;
+    font-size: 1.2vw;
+}
+
+.p4 {
+    font-size: 11px;
+}
+
+.p3 {
+    padding: 13px 17px;
+    font-size: 11px;
+    margin-left: 35px;
+}
+
+.p2 {
+    padding: 13px 17px;
+    font-size: 1.2vw;
+    /* margin-bottom: 40px; */
+}
+
+.lf {
+    float: left;
+    width: 100px;
+}
+
+.rt {
+    float: right;
+    width: 100px;
+}
+
+.progress {
+    margin-left: 10px;
+    width: 80%;
+}
+
+.bl {
+    color: black;
+    margin-top: 23px;
+    margin-left: 50px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.ltable {
+    margin-top: 23px;
+    margin-left: 60px;
+}
+
+.ltable,
+.lth,
+.ltd {
+    border: 1px solid black;
+    padding: 5px;
+    height: 50px;
+}
+
+.ltd,
+.lth {
+    color: black;
+    font-size: 13px;
+}
+
+.lastlist,
+.lists {
+    list-style: disc;
+    margin-left: 45px;
+}
+
+.lastlist {
+    padding-top: 8px;
+    color: gold;
+    text-align: justify;
+}
+
+.list {
+    color: black;
+    padding-top: 10px;
+}
+
+.td {
+    padding-bottom: 8px;
+}
+
+.lf {
+    width: 100%;
+    float: left;
+}
+
+.rt {
+    width: 100%;
+    float: right;
+}
+
+.i {
+    padding: 13px 10px;
+    font-size: 11px;
+    margin-left: 40px;
+}
+
+.i {
+    margin-bottom: 10px;
+}
+
+.para {
+    margin-left: -10px;
+}
+
+@media (max-width:765px) {
+    .lrow {
+        display: grid;
+    }
+    .lleft {
+        background-color: #17334f;
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .lright {
+        width: 80%;
+        color: red;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .text,
+    .p1,
+    .p2 {
+        font-size: 2.3vw;
+    }
+    .con {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width:1000px) {
+    .headings {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 45px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .para {
+        margin-left: -12px;
+        margin-right: 10px;
+    }
+    .ltable {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .lastlist {
+        color: black;
+        margin-left: -20px;
+        margin-right: 20px;
+        letter-spacing: normal;
+    }
+}
